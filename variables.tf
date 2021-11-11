@@ -1,3 +1,7 @@
+variable "ibmcloud_api_key" {
+  description = "Export a ENV variable TF_VAR_ibmcloud_api_key with You IAM based API key."
+}
+
 variable "vpc_region" {
   description = "VPC region"
   default     = "eu-gb"
